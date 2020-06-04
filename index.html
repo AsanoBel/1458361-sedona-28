@@ -22,7 +22,7 @@
   <main>
     <section>
       <a>
-        <img src="img/welcome.png" width="457" height="351" alt="фон">
+        <img src="img/welcome.png" width="457" height="351" alt="Добро пожаловать!">
         <h1>WSedona</h1>
       </a>
     </section>
@@ -37,19 +37,28 @@
           Укажите предполагаемые даты поездки,<br>
            и мы покажем вам лучшие предложения гостиниц в седоне
         </p>  
-          <button type="button">Поиск гостиницы в Седоне</button>
-          <!--понять как нарисовать всплывающую форму для кнопки-->
-        <p>
-          <label>Дата заезда:</label>
-          <input type="text" value="24 апреля 2017">
-          <img src="img/calendar.svg" width="21" height="23" alt="calendar">
-        </p>
-        <p>
-          <label>Дата выезда:</label>
-          <input type="text" value="4 июля 2017">
-          <img src="img/calendar.svg" width="21" height="23" alt="calendar">
-        </p>
-
+        <button type="button">Поиск гостиницы в Седоне</button>
+        <form action="https://echo.htmlacademy.ru" method="post">
+          <p>
+            <label for="visit-date">Дата заезда</label>
+            <input id="visit-date" type="text" name="date" placeholder="24 апреля 2017">
+              <img src="img/calendar.svg" width="21" height="23" alt="calendar">
+          </p>
+          <p>
+            <label for="leaving-date">Дата выезда</label>
+            <input id="leaving-date" type="text" name="date" placeholder="4 июля 2017">
+              <img src="img/calendar.svg" width="21" height="23" alt="calendar">              </p>
+          <p>
+            <label for="adult">взрослые</label>
+            <input id="adult" type="value" placeholder="2">
+          </p>
+          <p>
+            <label for="children">дети</label>
+            <input id="children" type="value" placeholder="0">
+          </p>
+          <a href="catalog.html">найти</a>
+        </form>
+      </section>
 
   </main>
 
@@ -67,17 +76,17 @@
       <ul>
         <li>
           <a href="#">твиттер
-            <img src="img/twitter.svg" width="46" height="48" alt="twitter">
+            <img src="img/twitter.svg" width="46" height="48" alt="наш твиттер">
           </a>
         </li>
         <li>
           <a href="#">фэйсбук
-            <img src="img/fb.svg" width="46" height="48" alt="fb">
+            <img src="img/fb.svg" width="46" height="48" alt="наш фэйсбук">
           </a>
         </li>
         <li>
           <a href="#">ютуб
-            <img src="img/youtube.svg" width="46" height="48" alt="youtube">
+            <img src="img/youtube.svg" width="46" height="48" alt="наш ютуб">
           </a>
         </li>
       </ul>
