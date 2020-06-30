@@ -1,0 +1,29 @@
+:root {
+  --basic-white: #ffffff;
+  --basic-black: #000000;
+  --basic-button-light-neutral: #81B3D2;
+  --basic-button-light-target: #669EC0;
+  --basic-button-light-push: #5496BD;
+  --basic-button-dark-neutral: #766357;
+  --basic-button-dark-target: #604E43;
+  --basic-button-dark-push: #503E33;
+  --basic-htmlacademy-neutral: #231F20;
+  --basic-htmlacademy-target: #81B3D2;
+  --basic-htmlacademy-push: #BDBBBC;
+}
+
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: var(--basic-black);
+  text-transform: uppercase;
+  background-color: var(--basic-white);
+  background-image: url("../img/bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
